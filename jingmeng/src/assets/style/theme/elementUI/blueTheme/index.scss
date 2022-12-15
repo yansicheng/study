@@ -1,0 +1,8 @@
+/* layout */
+
+#app {
+  color: $blueTheme-color;
+  @import './layout/index';
+}
+
+@import './layout/outApp.scss';

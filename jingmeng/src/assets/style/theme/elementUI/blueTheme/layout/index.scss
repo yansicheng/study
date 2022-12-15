@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+
+/* 横向菜单 */
+.menuBox {
+  padding: 0.5rem 0;
+
+  .el-menu--horizontal {
+    background-color: transparent;
+    border-bottom: none;
+
+    .sidebarItem {
+      margin-left: 1.5rem;
+      background-color: transparent;
+
+      .is-active {
+        color: $blueTheme-color !important;
+        background-image: $sidebar-active-image !important;
+      }
+
+      .el-submenu {
+        width: 12rem;
+        height: 2.7rem;
+        background-image: $siderbar-bgImage;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        .el-submenu__title {
+          text-align: center;
+          color: $blueTheme-color;
+          height: 100%;
+          font-size: 1rem;
+          display: flex;
+          justify-content: center;
+          line-height: normal;
+          align-items: center;
+
+          &:hover {
+            background-color: transparent;
+          }
+
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+$theme2-color: rgb(106, 153, 116);
+$theme2-background-color: #000;
+
+
+@mixin element-ui-theme2() {
+  $--color-primary: #dbdb38;
+}

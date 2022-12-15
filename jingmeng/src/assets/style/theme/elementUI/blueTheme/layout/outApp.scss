@@ -1,0 +1,28 @@
+/* 菜单的浮框 */
+.el-menu--horizontal {
+  .el-menu--popup {
+    background-color: $blueTheme-menuBgColor;
+
+    .el-submenu {
+      .el-submenu__title {
+        background-color: $blueTheme-menuBgColor;
+        color: $blueTheme-color;
+      }
+    }
+
+    .el-menu-item {
+      background-color: $blueTheme-menuBgColor;
+      color: $blueTheme-color;
+
+      &:not(.is-disabled):hover {
+        color: $blueTheme-color;
+        background-color: $blueTheme-menuBgColor-highLight;
+      }
+    }
+
+    .el-menu-item.is-active {
+      color: $blueTheme-color;
+      background-color: $blueTheme-menuBgColor-highLight;
+    }
+  }
+}

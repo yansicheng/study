@@ -1,0 +1,7 @@
+1.安装全局模块包
+yarn global add @vue/cli(查看是否成功 vue -v)
+2.创建项目
+vue create 项目名称（不能有大写字母、中文和特殊符号）
+
+
+修饰符用法https://cn.vuejs.org/v2/guide/events.html

@@ -1,0 +1,31 @@
+@import "./theme/views/theme1.scss";
+@import "./theme/views/theme2.scss";
+
+
+/* icon 字体路径变量 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@mixin text_color() {
+  color: $theme1-color;
+  background-color: $theme1-background-color;
+
+  [data-theme=theme1] & {
+    color: $theme1-color;
+    background-color: $theme1-background-color;
+  }
+
+  [data-theme=theme2] & {
+    color: $theme2-color;
+    background-color: $theme2-background-color;
+  }
+}
+
+.theme1 {
+  @import './theme/elementUI/test1';
+  @import './theme/elementBase.scss';
+}
+
+.theme2 {
+  @import './theme/elementUI/test2';
+  @import './theme/elementBase.scss';
+}
