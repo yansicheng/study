@@ -1,0 +1,23 @@
+/* npm init -y
+在package.json中声明"type":"module"
+
+npm i express@4.17.1 mysql2@2.2.5
+创建基本服务器
+impress express from 'express'
+const app=express
+app.listen(80,()=>{
+  console.log('server running at http://127.0.0.1')
+})
+
+
+nodemon app.js运行失败无nodemon环境
+npm install -g nodemon
+数据库操作模块 见./db/index.js
+
+创建user_ctrl模块 见./controller/user_ctrl.js
+
+路由模块 见./router/user_router.js
+ 
+
+
+*/
